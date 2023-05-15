@@ -1,7 +1,38 @@
 body {
-    background-color: lightblue;
+    background-color:rgb(241, 229, 207)
 }
-
 h1 {
-    color: red;
+    color: rgb(187, 45, 45);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+h2 {
+    color: rgb(128, 13, 13);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+img {
+    width: 400px
+}
+ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+p.thick {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:larger;
+    font-weight:bold;
+}
+.pictures music {
+    float: center;
+}
+.pictures athletics {
+    float: left;
+}
+.pictures inline skating {
+    float: right;
 }
