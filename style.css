@@ -1,38 +1,171 @@
-body {
-    background-color:rgb(241, 229, 207)
-}
-h1 {
-    color: rgb(187, 45, 45);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: xx-large;
-}
-h2 {
-    color: rgb(128, 13, 13);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: oblique;
-}
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
-}
-img {
-    width: 400px
-}
-ul {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: larger;
-}
-p.thick {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size:larger;
-    font-weight:bold;
-}
-.pictures music {
-    float: center;
-}
-.pictures athletics {
-    float: left;
-}
-.pictures inline skating {
-    float: right;
-}
+/* ============================= */
+/* ===== Allgemeine Styles ===== */
+/* ============================= */
+.grosser-titel {
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  
+  .kleiner-titel {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .section-style-2 {
+    background-color:#f68080;
+    color: white;
+  }
+  
+  .section-style-1 {
+    background-color:rgb(244, 196, 205);
+    color: black;
+  }
+  
+  /* ======================================= */
+  /* ===== Section 1: Navigationszeile ===== */
+  /* ======================================= */
+  
+  /* Dein Code */
+  
+  /* ================================ */
+  /* ===== Section 2: Überblick ===== */
+  /* ================================ */
+  
+  /* Section 2: Überblick */
+  
+  #überblick {
+    padding: 2%;
+  }
+  
+  .btn {
+    margin: 10% 0;
+    width: 100%;
+  
+  }
+  
+  .überblick-links {
+    padding-top: 3%;
+  }
+  
+  .überblick-rechts {
+    padding-top: 3%;
+  }
+  
+  .app-bild {
+    width: 50%;
+    border-radius: 5%;
+    transform: rotate(-3deg);
+  }
+  #section-style-1{
+    padding: 10%;
+  }
+  
+  /* Dein Code */
+  
+  /* =============================== */
+  /* ===== Section 3: Features ===== */
+  /* =============================== */
+  
+  /* Dein Code */
+  
+  .feature-box {
+    padding-top: 5%;
+  }
+  
+  .icon {
+    color:rgb(173, 28, 28);
+    padding: 5%;
+    align-items: center;
+  } 
+  .icon:hover {
+    color:rgb(207, 23, 60);
+  }
+  
+
+
+  /* ================================== */
+  /* ===== Section 4: Bewertungen ===== */
+  /* ================================== */
+  
+  /* Dein Code */
+  
+  .bewertung-text {
+    font-size: 40px;
+    margin: 0 10%;
+  }
+  
+  .bewertung-bild {
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+  }
+  /* ============================= */
+  /* ===== Section 5: Preise ===== */
+  /* ============================= */
+  
+  /* Dein Code */
+  #preise {
+    padding: 5% 15%;
+  }
+  
+  /* ============================= */
+  /* ===== Section 6: Footer ===== */
+  /* ============================= */
+  
+  
+  /* ============================= */
+  /* ===== Extra Section by me: Next page ===== */
+  /* ============================= */
+  
+  /* Dein Code */
+  .rezept-bild {
+    width: 50%;
+    border-radius: 5%;
+  }
+  
+  .rezept-bild:hover {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  
+  }
+  
+  .rezept-titel {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  
+  
+  /* Extra Blurry Bild + Text drauf
+  .app-bild {
+    background-image: url("pexels-elle-hughes-1660030.jpg");
+  
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  
+    height: 100%;
+    width: 100%;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  
+  .bg-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }*/
+  
